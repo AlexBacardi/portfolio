@@ -1,0 +1,123 @@
+.modal {
+    display: none;
+    width: 768px;
+    background-color: #fff;
+
+    @include tablet {
+        width: 738px;
+    }
+
+    @include mobile {
+        width: 330px;
+    }
+}
+
+.modal__header {
+    position: relative;
+    height: 370px;
+    background-color: #f6f6f6;
+
+    background-image: url('./../img/projects/laptop-big.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    @include mobile {
+        height: 246px;
+        background-image: url('./../img/projects/laptop.svg');
+    }
+}
+
+.modal__img {
+    width: 382px;
+    height: 242px;
+
+    position: relative;
+    top: 49%;
+    left: 50.1%;
+    transform: translate(-50%, -51%);
+
+    @include mobile {
+        width: 216px;
+        height: 138px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+.modal__content {
+    padding: 20px 40px 30px;
+
+    @include mobile {
+        padding: 20px;
+    }
+}
+
+.modal__title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.modal__descr {
+    margin-bottom: 20px;
+
+    p+p {
+        margin-top: 15px;
+    }
+}
+
+.modal__text {
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.modal__list {
+    margin-top: 15px;
+    padding-left: 22px;
+    color: #0F7DFF;
+
+    li+li {
+        margin-top: 10px;
+    }
+
+    &--noactive {
+        color: #707070;
+    }
+}
+
+.modal__item {
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 1.3;
+    text-decoration-skip-ink: none;
+
+    a {
+        color: #0F7DFF;
+
+        &:hover {
+            color: #707070;
+        }
+    }
+}
+
+.modal__tags {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #6b9db9;
+}
+
+.modal__links {
+    display: flex;
+    gap: 10px;
+
+    @include mobile {
+        flex-direction: column;
+    }
+}

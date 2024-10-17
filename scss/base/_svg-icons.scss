@@ -1,0 +1,49 @@
+.svg-social-email,
+.svg-social-github,
+.svg-social-telegram {
+    width: 42px;
+    height: 43px;
+    fill: #000;
+
+    transition: opacity 0.2s ease-in;
+    
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.svg-social-github {
+    fill: #212121;
+}
+
+.svg-social-telegram {
+    fill: #039BE5;
+}
+
+.svg-telegram {
+    width: 26px;
+    height: 20px;
+    fill: #fff;
+}
+
+.svg-site {
+    width: 16px;
+    height: 14px;
+}
+
+.svg-link {
+    width: 14px;
+    height: 14px;
+}
+
+.svg-github {
+    width: 18px;
+    height: 18px;
+}
+
+.svg-link,
+.svg-site,
+.svg-github {
+    fill: currentColor;
+}

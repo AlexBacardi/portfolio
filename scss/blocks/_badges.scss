@@ -1,0 +1,35 @@
+.badges__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.badges__item {
+    padding: 0px 6px;
+    height: 19px;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #fff;
+
+    border-radius: 2px;
+
+    &--html {
+        background-color: #414141;
+    }
+
+    &--css {
+        background-color: #39a0ff;
+    }
+
+    &--scss {
+        background-color: #dd6adf;
+    }
+
+    &--js {
+        background-color: #ffce20;
+        color: #000;
+    }
+}

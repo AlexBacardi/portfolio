@@ -1,0 +1,38 @@
+.footer {
+    padding: 20px 0;
+    background-color: #131313;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+
+    font-size: 14px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.5);
+
+    @include tablet {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    @include mobile {
+        align-items: flex-start;
+    }
+}
+
+.footer__copyright {
+
+}
+
+.footer__text {
+    margin-left: auto;
+
+    @include tablet {
+        margin-left: unset;
+    }
+}
+.footer__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}

@@ -1,0 +1,38 @@
+.main-title {
+    font-weight: 800;
+    font-size: 32px;
+
+    @include mobile {
+        font-size: 28px;
+    }
+
+    &--sm{
+
+        @include tablet {
+            font-size: 26px;
+        }
+
+        @include mobile {
+            font-size: 22px;
+        }
+    }
+}
+
+.second-title {
+    font-weight: 700;
+    font-size: 28px;
+
+    &--sm {
+        @include tablet {
+            font-size: 24px;
+        }
+    }
+
+    @include mobile {
+        font-size: 24px;
+    }
+}
+
+.main-title, .second-title {
+    line-height: 1;
+}

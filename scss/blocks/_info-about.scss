@@ -1,0 +1,29 @@
+.info-about {
+    flex: 1;
+    padding: 30px 30px 48px;
+    background-color: #fbfbfb;
+
+    @include tablet {
+        padding: 20px;
+    }
+
+    @include mobile {
+        padding: 18px;
+    }
+}
+
+.info-about__title {
+    margin-bottom: 20px;
+}
+
+.info-about__descr {
+    font-size: 14px;
+    line-height: 1.6;
+    p+p {
+        margin-top: 15px;
+
+        @include tablet {
+            margin-top: 10px;
+        }
+    }
+}

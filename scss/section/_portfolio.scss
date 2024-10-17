@@ -1,0 +1,15 @@
+.portfolio {}
+
+.portfolio__title {
+    margin-bottom: 30px;
+
+    @include mobile {
+        margin-bottom: 20px;
+    }
+}
+
+.pordfolio__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

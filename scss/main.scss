@@ -1,0 +1,36 @@
+//base
+@import './base/reset';
+@import './base/mixins';
+@import './base/base';
+@import './base/container';
+@import './base/utils';
+@import './base/typography';
+@import './base/svg-icons';
+
+// header
+@import './section/header';
+@import './blocks/logo';
+@import './blocks/social';
+
+//main 
+@import './section/main';
+
+//info
+@import './section/info';
+@import './blocks/info-about';
+@import './blocks/info-skills';
+@import './blocks/badges';
+
+// porfolio
+@import './section/portfolio';
+@import './blocks/card';
+
+// cta
+@import './section/cta';
+@import './blocks/btn';
+
+//footer
+@import './section/footer';
+
+// modal
+@import './section/modal';

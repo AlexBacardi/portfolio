@@ -1,0 +1,11 @@
+.info {}
+
+.info__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    @include mobile {
+        gap: 20px;
+    }
+}
